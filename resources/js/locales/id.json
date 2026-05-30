@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "projects": "Proyek",
+    "contact": "Kontak",
+    "adminPortal": "Portal Admin"
+  },
+  "hero": {
+    "availableForHire": "Tersedia Untuk Dipekerjakan",
+    "defaultTitle": "Pengembang Kreatif",
+    "defaultSubtitle": "Saya membuat aplikasi web berkinerja tinggi",
+    "defaultDescription": "Berspesialisasi dalam membangun aplikasi full-stack dengan animasi yang indah dan desain fidelitas tinggi.",
+    "viewProjects": "Lihat Proyek",
+    "downloadCV": "Unduh CV",
+    "yearsExp": "Tahun Pengalaman",
+    "completedProjects": "Proyek Selesai",
+    "happyClients": "Klien Puas"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Perjalanan Saya",
+    "heading": "Membangun Arsitektur Web Berkualitas Tinggi & Bersih",
+    "defaultDescription": "Saya adalah pengembang full-stack yang berkomitmen untuk menciptakan sistem yang skalabel, kuat, dan interaktif dengan indah. Menggunakan arsitektur modern dan framework standar, saya membangun solusi yang mengutamakan penceritaan visual yang halus dan backend yang kuat.",
+    "emailLabel": "Email",
+    "phoneLabel": "Telepon",
+    "locationLabel": "Lokasi"
+  },
+  "skills": {
+    "title": "Keahlian & Teknologi",
+    "subtitle": "Tumpukan Teknologi",
+    "frontend": "Rekayasa Frontend",
+    "backend": "Backend & Database",
+    "tools": "Alat & Alur Kerja"
+  },
+  "services": {
+    "title": "Yang Saya Tawarkan",
+    "subtitle": "Layanan Saya"
+  },
+  "projects": {
+    "title": "Proyek Unggulan",
+    "subtitle": "Pameran Portofolio",
+    "viewAll": "Lihat Semua Proyek"
+  },
+  "testimonials": {
+    "title": "Kata Klien",
+    "subtitle": "Testimoni"
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "subtitle": "Kontak",
+    "heading": "Mari membangun sesuatu yang luar biasa bersama.",
+    "description": "Baik Anda memiliki proposal proyek lengkap, ide inovatif, atau hanya ingin terhubung, jangan ragu untuk mengirim pesan.",
+    "nameLabel": "Nama",
+    "namePlaceholder": "Budi Santoso",
+    "emailLabel": "Email",
+    "emailPlaceholder": "budi@contoh.com",
+    "subjectLabel": "Subjek",
+    "subjectPlaceholder": "Kolaborasi Proyek",
+    "messageLabel": "Pesan",
+    "messagePlaceholder": "Ceritakan lebih banyak tentang ide proyek Anda...",
+    "sendButton": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "successMessage": "Pesan Anda berhasil dikirim. Saya akan segera menghubungi Anda."
+  },
+  "footer": {
+    "rights": "Hak cipta dilindungi."
+  },
+  "language": {
+    "label": "Bahasa",
+    "en": "English",
+    "ja": "日本語",
+    "zh": "中文",
+    "es": "Español",
+    "id": "Indonesia",
+    "ko": "한국어",
+    "tl": "Tagalog"
+  }
+}

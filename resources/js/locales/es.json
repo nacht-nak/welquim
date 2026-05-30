@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "adminPortal": "Portal Admin"
+  },
+  "hero": {
+    "availableForHire": "Disponible Para Contratar",
+    "defaultTitle": "Desarrollador Creativo",
+    "defaultSubtitle": "Creo aplicaciones web de alto rendimiento",
+    "defaultDescription": "Especializado en construir aplicaciones full-stack con animaciones hermosas y diseño de alta fidelidad.",
+    "viewProjects": "Ver Proyectos",
+    "downloadCV": "Descargar CV",
+    "yearsExp": "Años de Exp",
+    "completedProjects": "Proyectos Completados",
+    "happyClients": "Clientes Satisfechos"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "subtitle": "Mi Trayectoria",
+    "heading": "Creando Arquitectura Web de Alta Fidelidad y Limpia",
+    "defaultDescription": "Soy un desarrollador full-stack comprometido con la creación de sistemas escalables, robustos y bellamente interactivos. Utilizando arquitecturas modernas y frameworks estándar, construyo soluciones que priorizan tanto la narrativa visual fluida como backends robustos.",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono",
+    "locationLabel": "Ubicación"
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "subtitle": "Stack Tecnológico",
+    "frontend": "Ingeniería Frontend",
+    "backend": "Backend y Base de Datos",
+    "tools": "Herramientas y Flujos de Trabajo"
+  },
+  "services": {
+    "title": "Lo Que Ofrezco",
+    "subtitle": "Mis Servicios"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Portafolio",
+    "viewAll": "Ver Todos los Proyectos"
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen los Clientes",
+    "subtitle": "Testimonios"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Contáctame",
+    "heading": "Construyamos algo épico juntos.",
+    "description": "Ya sea que tengas una propuesta de proyecto completa, una idea innovadora o simplemente quieras conectar, no dudes en enviar un mensaje.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Juan Pérez",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "juan@ejemplo.com",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Colaboración de Proyecto",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Cuéntame más sobre tu idea de proyecto...",
+    "sendButton": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "successMessage": "Tu mensaje fue enviado exitosamente. Te responderé pronto."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "ja": "日本語",
+    "zh": "中文",
+    "es": "Español",
+    "id": "Indonesia",
+    "ko": "한국어",
+    "tl": "Tagalog"
+  }
+}

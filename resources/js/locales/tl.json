@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Mga Proyekto",
+    "contact": "Makipag-ugnayan",
+    "adminPortal": "Portal ng Admin"
+  },
+  "hero": {
+    "availableForHire": "Bukas Para sa Trabaho",
+    "defaultTitle": "Malikhaing Developer",
+    "defaultSubtitle": "Gumagawa ako ng mataas na kalidad na web applications",
+    "defaultDescription": "Espesyalista sa pagbuo ng full-stack na mga aplikasyon na may magagandang animasyon at mataas na kalidad na disenyo.",
+    "viewProjects": "Tingnan ang mga Proyekto",
+    "downloadCV": "I-download ang CV",
+    "yearsExp": "Taon ng Karanasan",
+    "completedProjects": "Natapos na Proyekto",
+    "happyClients": "Masayang Kliyente"
+  },
+  "about": {
+    "title": "Tungkol sa Akin",
+    "subtitle": "Ang Aking Paglalakbay",
+    "heading": "Pagbuo ng Mataas na Kalidad at Malinis na Web Architecture",
+    "defaultDescription": "Ako ay isang full-stack developer na nakatuon sa paglikha ng mga scalable, matatag, at magandang interactive na sistema. Gamit ang makabagong mga arkitektura at karaniwang mga framework, gumagawa ako ng mga solusyon na inuuna ang parehong maayos na visual storytelling at matatag na backend.",
+    "emailLabel": "Email",
+    "phoneLabel": "Telepono",
+    "locationLabel": "Lokasyon"
+  },
+  "skills": {
+    "title": "Mga Kasanayan at Teknolohiya",
+    "subtitle": "Tech Stack",
+    "frontend": "Frontend Engineering",
+    "backend": "Backend at Database",
+    "tools": "Mga Kasangkapan at Daloy ng Trabaho"
+  },
+  "services": {
+    "title": "Ang Aking Mga Serbisyo",
+    "subtitle": "Mga Serbisyo"
+  },
+  "projects": {
+    "title": "Mga Tampok na Proyekto",
+    "subtitle": "Showcase ng Portfolio",
+    "viewAll": "Tingnan Lahat ng Proyekto"
+  },
+  "testimonials": {
+    "title": "Mga Sinabi ng Kliyente",
+    "subtitle": "Mga Testimonya"
+  },
+  "contact": {
+    "title": "Makipag-ugnayan",
+    "subtitle": "Kontakin Ako",
+    "heading": "Gumawa tayo ng isang bagay na kahanga-hanga.",
+    "description": "Kung mayroon kang kumpletong panukala sa proyekto, isang makabagong ideya, o gusto mo lamang kumonekta, huwag mag-atubiling magpadala ng mensahe.",
+    "nameLabel": "Pangalan",
+    "namePlaceholder": "Juan dela Cruz",
+    "emailLabel": "Email",
+    "emailPlaceholder": "juan@halimbawa.com",
+    "subjectLabel": "Paksa",
+    "subjectPlaceholder": "Pakikipagtulungan sa Proyekto",
+    "messageLabel": "Mensahe",
+    "messagePlaceholder": "Sabihin mo pa sa akin ang tungkol sa iyong ideya sa proyekto...",
+    "sendButton": "Ipadala ang Mensahe",
+    "sending": "Ipinapadala...",
+    "successMessage": "Matagumpay na naipadala ang iyong mensahe. Babalikan kita sa lalong madaling panahon."
+  },
+  "footer": {
+    "rights": "Lahat ng karapatan ay nakalaan."
+  },
+  "language": {
+    "label": "Wika",
+    "en": "English",
+    "ja": "日本語",
+    "zh": "中文",
+    "es": "Español",
+    "id": "Indonesia",
+    "ko": "한국어",
+    "tl": "Tagalog"
+  }
+}

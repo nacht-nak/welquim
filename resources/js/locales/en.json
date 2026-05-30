@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact",
+    "adminPortal": "Admin Portal"
+  },
+  "hero": {
+    "availableForHire": "Available For Hire",
+    "defaultTitle": "Creative Developer",
+    "defaultSubtitle": "I craft performance web applications",
+    "defaultDescription": "Specialized in building full-stack applications with beautiful animations and high fidelity design.",
+    "viewProjects": "View Projects",
+    "downloadCV": "Download CV",
+    "yearsExp": "Years Exp",
+    "completedProjects": "Completed Projects",
+    "happyClients": "Happy Clients"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "My Journey",
+    "heading": "Crafting High-Fidelity & Clean Web Architecture",
+    "defaultDescription": "I'm a full-stack developer committed to creating scalable, robust, and beautifully interactive systems. Using modern architectures and standard frameworks, I build solutions that prioritize both smooth visual storytelling and robust backends.",
+    "emailLabel": "Email Me",
+    "phoneLabel": "Call Me",
+    "locationLabel": "Location"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "Tech Stack",
+    "frontend": "Frontend Engineering",
+    "backend": "Backend & Database",
+    "tools": "Tools & Workflows"
+  },
+  "services": {
+    "title": "What I Offer",
+    "subtitle": "My Services"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Portfolio Showcase",
+    "viewAll": "View All Projects"
+  },
+  "testimonials": {
+    "title": "What Clients Say",
+    "subtitle": "Testimonials"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Contact Me",
+    "heading": "Let's build something epic together.",
+    "description": "Whether you have a fully drafted project proposal, an innovative idea, or just want to connect, feel free to send a message.",
+    "nameLabel": "Name",
+    "namePlaceholder": "John Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "john@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Project Collaboration",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me more about your project idea...",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Your message was sent successfully. I will get back to you shortly."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ja": "日本語",
+    "zh": "中文",
+    "es": "Español",
+    "id": "Indonesia",
+    "ko": "한국어",
+    "tl": "Tagalog"
+  }
+}

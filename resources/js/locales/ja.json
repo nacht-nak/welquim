@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "projects": "プロジェクト",
+    "contact": "お問い合わせ",
+    "adminPortal": "管理ポータル"
+  },
+  "hero": {
+    "availableForHire": "採用可能",
+    "defaultTitle": "クリエイティブ開発者",
+    "defaultSubtitle": "高性能なウェブアプリケーションを構築します",
+    "defaultDescription": "美しいアニメーションと高精度なデザインを備えたフルスタックアプリケーションの構築を専門としています。",
+    "viewProjects": "プロジェクトを見る",
+    "downloadCV": "履歴書をダウンロード",
+    "yearsExp": "経験年数",
+    "completedProjects": "完了プロジェクト",
+    "happyClients": "満足したクライアント"
+  },
+  "about": {
+    "title": "私について",
+    "subtitle": "私の歩み",
+    "heading": "高精度でクリーンなウェブアーキテクチャの構築",
+    "defaultDescription": "私はスケーラブルで堅牢、そして美しくインタラクティブなシステムの構築に取り組むフルスタック開発者です。モダンなアーキテクチャと標準的なフレームワークを使用し、スムーズなビジュアルストーリーテリングと堅牢なバックエンドの両方を優先するソリューションを構築しています。",
+    "emailLabel": "メール",
+    "phoneLabel": "電話",
+    "locationLabel": "所在地"
+  },
+  "skills": {
+    "title": "スキルと技術",
+    "subtitle": "技術スタック",
+    "frontend": "フロントエンドエンジニアリング",
+    "backend": "バックエンド＆データベース",
+    "tools": "ツール＆ワークフロー"
+  },
+  "services": {
+    "title": "提供サービス",
+    "subtitle": "サービス内容"
+  },
+  "projects": {
+    "title": "注目のプロジェクト",
+    "subtitle": "ポートフォリオショーケース",
+    "viewAll": "すべてのプロジェクトを見る"
+  },
+  "testimonials": {
+    "title": "クライアントの声",
+    "subtitle": "お客様の声"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "連絡先",
+    "heading": "一緒に素晴らしいものを作りましょう。",
+    "description": "プロジェクトの提案、革新的なアイデア、または単につながりたい場合でも、お気軽にメッセージをお送りください。",
+    "nameLabel": "名前",
+    "namePlaceholder": "山田太郎",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "taro@example.com",
+    "subjectLabel": "件名",
+    "subjectPlaceholder": "プロジェクトのコラボレーション",
+    "messageLabel": "メッセージ",
+    "messagePlaceholder": "プロジェクトのアイデアについて詳しく教えてください...",
+    "sendButton": "メッセージを送信",
+    "sending": "送信中...",
+    "successMessage": "メッセージが正常に送信されました。近日中にご連絡いたします。"
+  },
+  "footer": {
+    "rights": "全著作権所有。"
+  },
+  "language": {
+    "label": "言語",
+    "en": "English",
+    "ja": "日本語",
+    "zh": "中文",
+    "es": "Español",
+    "id": "Indonesia",
+    "ko": "한국어",
+    "tl": "Tagalog"
+  }
+}

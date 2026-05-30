@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "首页",
+    "projects": "项目",
+    "contact": "联系",
+    "adminPortal": "管理门户"
+  },
+  "hero": {
+    "availableForHire": "可供聘用",
+    "defaultTitle": "创意开发者",
+    "defaultSubtitle": "我打造高性能网络应用",
+    "defaultDescription": "专注于构建具有精美动画和高保真设计的全栈应用程序。",
+    "viewProjects": "查看项目",
+    "downloadCV": "下载简历",
+    "yearsExp": "经验年数",
+    "completedProjects": "完成项目",
+    "happyClients": "满意客户"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "我的历程",
+    "heading": "打造高保真和整洁的网络架构",
+    "defaultDescription": "我是一名全栈开发者，致力于创建可扩展、稳健且具有美观互动性的系统。使用现代架构和标准框架，我构建的解决方案同时注重流畅的视觉叙事和稳健的后端。",
+    "emailLabel": "电子邮件",
+    "phoneLabel": "电话",
+    "locationLabel": "地址"
+  },
+  "skills": {
+    "title": "技能与技术",
+    "subtitle": "技术栈",
+    "frontend": "前端工程",
+    "backend": "后端与数据库",
+    "tools": "工具与工作流"
+  },
+  "services": {
+    "title": "我的服务",
+    "subtitle": "服务内容"
+  },
+  "projects": {
+    "title": "精选项目",
+    "subtitle": "作品展示",
+    "viewAll": "查看所有项目"
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "subtitle": "客户反馈"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "取得联系",
+    "heading": "让我们一起创造伟大的作品。",
+    "description": "无论您有完整的项目提案、创新的想法，还是只想建立联系，欢迎随时给我留言。",
+    "nameLabel": "姓名",
+    "namePlaceholder": "张三",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "zhangsan@example.com",
+    "subjectLabel": "主题",
+    "subjectPlaceholder": "项目合作",
+    "messageLabel": "消息",
+    "messagePlaceholder": "请告诉我更多关于您的项目想法...",
+    "sendButton": "发送消息",
+    "sending": "发送中...",
+    "successMessage": "您的消息已成功发送。我会尽快回复您。"
+  },
+  "footer": {
+    "rights": "版权所有。"
+  },
+  "language": {
+    "label": "语言",
+    "en": "English",
+    "ja": "日本語",
+    "zh": "中文",
+    "es": "Español",
+    "id": "Indonesia",
+    "ko": "한국어",
+    "tl": "Tagalog"
+  }
+}
