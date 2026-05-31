@@ -32,10 +32,7 @@ export default defineConfig(async () => {
     if (!process.env.VERCEL) {
         try {
             const { execSync } = await import('child_process');
-
-            execSync('php --version', {
-                stdio: 'ignore',
-            });
+            execSync('php --version', { stdio: 'ignore' });
 
             const { wayfinder } = await import(
                 '@laravel/vite-plugin-wayfinder'
