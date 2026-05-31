@@ -16,22 +16,39 @@ export default defineConfig(async () => {
                 }),
             ],
         }),
+
         inertia(),
+
         react({
             babel: {
                 plugins: ['babel-plugin-react-compiler'],
             },
         }),
+
         tailwindcss(),
     ];
 
-    try {
-        const { execSync } = await import('child_process');
-        execSync('php --version', { stdio: 'ignore' });
-        const { wayfinder } = await import('@laravel/vite-plugin-wayfinder');
-        plugins.push(wayfinder({ formVariants: true }));
-    } catch {
-        // php not available, skip wayfinder
+    // Skip Wayfinder on Vercel
+    if (!process.env.VERCEL) {
+        try {
+            const { execSync } = await import('child_process');
+
+            execSync('php --version', {
+                stdio: 'ignore',
+            });
+
+            const { wayfinder } = await import(
+                '@laravel/vite-plugin-wayfinder'
+            );
+
+            plugins.push(
+                wayfinder({
+                    formVariants: true,
+                })
+            );
+        } catch {
+            console.log('PHP unavailable — skipping Wayfinder');
+        }
     }
 
     return { plugins };
