@@ -1,12 +1,12 @@
-import { useTranslation } from 'react-i18next';
 import { Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { Button } from '@/components/ui/button';
 import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-import { Button } from '@/components/ui/button';
 
 const languages = [
     { code: 'en', flag: '🇺🇸' },

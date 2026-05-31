@@ -1,7 +1,7 @@
 import { Link } from '@inertiajs/react';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
+import type { Project } from '@/types/portfolio';
 import GlassmorphismCard from './glassmorphism-card';
-import { Project } from '@/types/portfolio';
 
 interface ProjectCardProps {
     project: Project;

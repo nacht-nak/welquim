@@ -1,12 +1,12 @@
 import { Head, Link } from '@inertiajs/react';
 import { ArrowLeft, ExternalLink, Github, Globe } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import PortfolioLayout from '@/layouts/portfolio-layout';
-import ScrollReveal from '@/components/portfolio/scroll-reveal';
 import GlassmorphismCard from '@/components/portfolio/glassmorphism-card';
 import ProjectCard from '@/components/portfolio/project-card';
+import ScrollReveal from '@/components/portfolio/scroll-reveal';
 import SectionHeading from '@/components/portfolio/section-heading';
-import { Project } from '@/types/portfolio';
+import { Button } from '@/components/ui/button';
+import PortfolioLayout from '@/layouts/portfolio-layout';
+import type { Project } from '@/types/portfolio';
 
 interface ProjectDetailProps {
     project: Project;

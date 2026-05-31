@@ -25,9 +25,9 @@ import {
     TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { useInitials } from '@/hooks/use-initials';
+import { toForm } from '@/lib/utils';
 import { edit, index, update } from '@/routes/teams';
 import { update as updateMember } from '@/routes/teams/members';
-import { toForm } from '@/lib/utils';
 import type {
     RoleOption,
     Team,

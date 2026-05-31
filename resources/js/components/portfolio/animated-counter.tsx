@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
 import { useInView } from 'framer-motion';
+import { useEffect, useRef, useState } from 'react';
 
 interface AnimatedCounterProps {
     to: number;
@@ -19,12 +19,17 @@ export default function AnimatedCounter({
     const isInView = useInView(ref, { once: true, margin: '-20px' });
 
     useEffect(() => {
-        if (!isInView) return;
+        if (!isInView) {
+return;
+}
 
         let startTime: number | null = null;
 
         const animate = (timestamp: number) => {
-            if (!startTime) startTime = timestamp;
+            if (!startTime) {
+startTime = timestamp;
+}
+
             const progress = Math.min((timestamp - startTime) / (duration * 1000), 1);
             
             // Ease out quad formula

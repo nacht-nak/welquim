@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\ContactFormRequest;
 use App\Models\About;
 use App\Models\Message;
+use Illuminate\Http\RedirectResponse;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -27,7 +28,7 @@ class ContactController extends Controller
         ]);
     }
 
-    public function store(ContactFormRequest $request): \Illuminate\Http\RedirectResponse
+    public function store(ContactFormRequest $request): RedirectResponse
     {
         Message::create($request->validated());
 

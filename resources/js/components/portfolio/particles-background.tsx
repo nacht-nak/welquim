@@ -14,10 +14,16 @@ export default function ParticlesBackground() {
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        if (!canvas) return;
+
+        if (!canvas) {
+return;
+}
 
         const ctx = canvas.getContext('2d');
-        if (!ctx) return;
+
+        if (!ctx) {
+return;
+}
 
         let animationFrameId: number;
         let particles: Particle[] = [];
@@ -37,6 +43,7 @@ export default function ParticlesBackground() {
 
         const createParticles = () => {
             particles = [];
+
             for (let i = 0; i < particleCount; i++) {
                 particles.push({
                     x: Math.random() * canvas.width,
@@ -65,8 +72,13 @@ export default function ParticlesBackground() {
                 p.y += p.speedY;
 
                 // Bounce off edges
-                if (p.x < 0 || p.x > canvas.width) p.speedX *= -1;
-                if (p.y < 0 || p.y > canvas.height) p.speedY *= -1;
+                if (p.x < 0 || p.x > canvas.width) {
+p.speedX *= -1;
+}
+
+                if (p.y < 0 || p.y > canvas.height) {
+p.speedY *= -1;
+}
             });
         };
 

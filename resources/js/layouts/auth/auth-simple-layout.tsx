@@ -1,8 +1,8 @@
 import { Link } from '@inertiajs/react';
+import { motion } from 'framer-motion';
 import AppLogoIcon from '@/components/app-logo-icon';
 import { home } from '@/routes';
 import type { AuthLayoutProps } from '@/types';
-import { motion } from 'framer-motion';
 
 export default function AuthSimpleLayout({
     children,

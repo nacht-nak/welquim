@@ -1,15 +1,15 @@
-import * as React from 'react';
 import { Head, useForm } from '@inertiajs/react';
-import { useTranslation } from 'react-i18next';
 import { Mail, Phone, MapPin, CheckCircle2, Github, Linkedin, Twitter } from 'lucide-react';
+import * as React from 'react';
+import { useTranslation } from 'react-i18next';
+import GlassmorphismCard from '@/components/portfolio/glassmorphism-card';
+import ScrollReveal from '@/components/portfolio/scroll-reveal';
+import SectionHeading from '@/components/portfolio/section-heading';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import PortfolioLayout from '@/layouts/portfolio-layout';
-import SectionHeading from '@/components/portfolio/section-heading';
-import ScrollReveal from '@/components/portfolio/scroll-reveal';
-import GlassmorphismCard from '@/components/portfolio/glassmorphism-card';
 
 interface ContactProps {
     contactInfo: {
@@ -111,7 +111,7 @@ export default function Contact({ contactInfo }: ContactProps) {
                                                 id="name"
                                                 value={data.name}
                                                 onChange={(e) => setData('name', e.target.value)}
-                                                placeholder={t('contact.namePlaceholder')}
+                                                placeholder="Your Name"
                                                 required
                                                 className="bg-neutral-950 border-white/10 text-foreground"
                                             />
@@ -124,7 +124,7 @@ export default function Contact({ contactInfo }: ContactProps) {
                                                 type="email"
                                                 value={data.email}
                                                 onChange={(e) => setData('email', e.target.value)}
-                                                placeholder={t('contact.emailPlaceholder')}
+                                                placeholder="Your Email"
                                                 required
                                                 className="bg-neutral-950 border-white/10 text-foreground"
                                             />

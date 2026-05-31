@@ -1,8 +1,8 @@
-import { ReactNode } from 'react';
-import Navbar from '@/components/portfolio/navbar';
+import type { ReactNode } from 'react';
 import Footer from '@/components/portfolio/footer';
+import Navbar from '@/components/portfolio/navbar';
 import ScrollProgress from '@/components/portfolio/scroll-progress';
-import { About } from '@/types/portfolio';
+import type { About } from '@/types/portfolio';
 
 interface PortfolioLayoutProps {
     children: ReactNode;

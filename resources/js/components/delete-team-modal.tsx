@@ -13,8 +13,8 @@ import {
 } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { destroy } from '@/routes/teams';
 import { toForm } from '@/lib/utils';
+import { destroy } from '@/routes/teams';
 import type { Team } from '@/types';
 
 type Props = {

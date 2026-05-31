@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\TestimonialController as AdminTestimonialControll
 use App\Http\Controllers\Portfolio\ContactController;
 use App\Http\Controllers\Portfolio\HomeController;
 use App\Http\Controllers\Portfolio\ProjectController;
+use App\Http\Middleware\ConvertFormDataTypes;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,7 +37,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 |--------------------------------------------------------------------------
 */
 Route::prefix('admin')
-    ->middleware(['auth', 'verified', \App\Http\Middleware\ConvertFormDataTypes::class])
+    ->middleware(['auth', 'verified', ConvertFormDataTypes::class])
     ->name('admin.')
     ->group(function () {
         Route::get('/', [AdminDashboardController::class, 'index'])->name('dashboard');

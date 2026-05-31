@@ -1,4 +1,5 @@
-import { MouseEvent, ReactNode, useRef, useState } from 'react';
+import type { MouseEvent, ReactNode} from 'react';
+import { useRef, useState } from 'react';
 
 interface TiltCardProps {
     children: ReactNode;
@@ -18,7 +19,10 @@ export default function TiltCard({
 
     const handleMouseMove = (e: MouseEvent<HTMLDivElement>) => {
         const card = cardRef.current;
-        if (!card) return;
+
+        if (!card) {
+return;
+}
 
         const rect = card.getBoundingClientRect();
         const width = rect.width;

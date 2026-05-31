@@ -36,7 +36,7 @@ class HomeController extends Controller
         ]);
     }
 
-    public function downloadResume(): BinaryFileResponse|null
+    public function downloadResume(): ?BinaryFileResponse
     {
         $about = About::getInstance();
 

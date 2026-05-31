@@ -6,6 +6,7 @@ export default function ScrollProgress() {
     useEffect(() => {
         const handleScroll = () => {
             const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+
             if (totalHeight > 0) {
                 const currentProgress = (window.scrollY / totalHeight) * 100;
                 setProgress(currentProgress);
@@ -13,6 +14,7 @@ export default function ScrollProgress() {
         };
 
         window.addEventListener('scroll', handleScroll);
+
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 

@@ -39,6 +39,6 @@ class RegistrationTest extends TestCase
 
         $user = User::where('email', 'test@example.com')->first();
         $team = $user->currentTeam ?? $user->personalTeam();
-        $response->assertRedirect('/' . $team->slug . '/dashboard');
+        $response->assertRedirect('/'.$team->slug.'/dashboard');
     }
 }

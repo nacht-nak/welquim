@@ -1,8 +1,8 @@
 import { Head, Link, router } from '@inertiajs/react';
 import { ArrowLeft, Mail, Calendar, Trash2 } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ContactMessage } from '@/types/portfolio';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import type { ContactMessage } from '@/types/portfolio';
 
 interface ShowProps {
     message: ContactMessage;

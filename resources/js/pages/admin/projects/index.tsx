@@ -1,9 +1,9 @@
 import { Head, Link, router } from '@inertiajs/react';
 import { Plus, Edit2, Trash2, Globe, Github, Star, Image as ImageIcon } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { Project } from '@/types/portfolio';
+import type { Project } from '@/types/portfolio';
 
 interface IndexProps {
     projects: Project[];

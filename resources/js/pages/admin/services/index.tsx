@@ -1,9 +1,9 @@
 import { Head, Link, router } from '@inertiajs/react';
 import { Plus, Edit2, Trash2, Award } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { Service } from '@/types/portfolio';
+import type { Service } from '@/types/portfolio';
 
 interface IndexProps {
     services: Service[];

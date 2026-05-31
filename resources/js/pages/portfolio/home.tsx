@@ -1,25 +1,24 @@
-import * as React from 'react';
 import { Head, Link, useForm } from '@inertiajs/react';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Mail, Phone, MapPin, CheckCircle2, Globe, Smartphone, Palette, Cloud, Terminal } from 'lucide-react';
+import * as React from 'react';
+import { useTranslation } from 'react-i18next';
+import AnimatedCounter from '@/components/portfolio/animated-counter';
+import AnimatedText from '@/components/portfolio/animated-text';
+import GlassmorphismCard from '@/components/portfolio/glassmorphism-card';
+import ParticlesBackground from '@/components/portfolio/particles-background';
+import ProjectCard from '@/components/portfolio/project-card';
+import ScrollReveal from '@/components/portfolio/scroll-reveal';
+import SectionHeading from '@/components/portfolio/section-heading';
+import SkillBar from '@/components/portfolio/skill-bar';
+import TestimonialCarousel from '@/components/portfolio/testimonial-carousel';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import PortfolioLayout from '@/layouts/portfolio-layout';
-import ParticlesBackground from '@/components/portfolio/particles-background';
-import AnimatedText from '@/components/portfolio/animated-text';
-import ScrollReveal from '@/components/portfolio/scroll-reveal';
-import SectionHeading from '@/components/portfolio/section-heading';
-import GlassmorphismCard from '@/components/portfolio/glassmorphism-card';
-import SkillBar from '@/components/portfolio/skill-bar';
-import ProjectCard from '@/components/portfolio/project-card';
-import TestimonialCarousel from '@/components/portfolio/testimonial-carousel';
-import AnimatedCounter from '@/components/portfolio/animated-counter';
-import { About, Skill, Project, Service, Testimonial, PortfolioSettings } from '@/types/portfolio';
+import type { About, Skill, Project, Service, Testimonial, PortfolioSettings } from '@/types/portfolio';
 
-// Dynamic Service Icon Mapper
 const IconMapper = ({ name, className }: { name: string | null; className?: string }) => {
     switch (name) {
         case 'Globe': return <Globe className={className} />;
@@ -369,7 +368,7 @@ export default function Home({
                                                     id="name"
                                                     value={data.name}
                                                     onChange={(e) => setData('name', e.target.value)}
-                                                    placeholder="Client Name"
+                                                    placeholder="Your Name"
                                                     required
                                                     className="bg-neutral-950 border-white/10 text-foreground"
                                                 />
@@ -382,7 +381,7 @@ export default function Home({
                                                     type="email"
                                                     value={data.email}
                                                     onChange={(e) => setData('email', e.target.value)}
-                                                    placeholder="Client Email"
+                                                    placeholder="Your Email"
                                                     required
                                                     className="bg-neutral-950 border-white/10 text-foreground"
                                                 />

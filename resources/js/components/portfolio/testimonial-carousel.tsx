@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
-import { Testimonial } from '@/types/portfolio';
+import { useState, useEffect } from 'react';
+import type { Testimonial } from '@/types/portfolio';
 
 interface TestimonialCarouselProps {
     testimonials: Testimonial[];
@@ -12,14 +12,20 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
     const [direction, setDirection] = useState(0); // -1 for left, 1 for right
 
     useEffect(() => {
-        if (testimonials.length <= 1) return;
+        if (testimonials.length <= 1) {
+return;
+}
+
         const timer = setInterval(() => {
             handleNext();
         }, 6000);
+
         return () => clearInterval(timer);
     }, [index, testimonials.length]);
 
-    if (!testimonials || testimonials.length === 0) return null;
+    if (!testimonials || testimonials.length === 0) {
+return null;
+}
 
     const handleNext = () => {
         setDirection(1);

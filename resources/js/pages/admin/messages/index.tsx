@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
 import { Head, Link, router } from '@inertiajs/react';
 import { Inbox, Eye, Check, Trash2, Search } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { ContactMessage } from '@/types/portfolio';
+import type { ContactMessage } from '@/types/portfolio';
 
 interface IndexProps {
     messages: {

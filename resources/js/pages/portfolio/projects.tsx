@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react';
 import { Head, router } from '@inertiajs/react';
 import { Search } from 'lucide-react';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import PortfolioLayout from '@/layouts/portfolio-layout';
-import SectionHeading from '@/components/portfolio/section-heading';
-import ScrollReveal from '@/components/portfolio/scroll-reveal';
+import { useState, useEffect } from 'react';
 import ProjectCard from '@/components/portfolio/project-card';
-import { Project } from '@/types/portfolio';
+import ScrollReveal from '@/components/portfolio/scroll-reveal';
+import SectionHeading from '@/components/portfolio/section-heading';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import PortfolioLayout from '@/layouts/portfolio-layout';
+import type { Project } from '@/types/portfolio';
 
 interface ProjectsProps {
     projects: Project[];
