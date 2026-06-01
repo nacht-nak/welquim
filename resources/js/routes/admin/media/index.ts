@@ -11,7 +11,7 @@ export const upload = (options?: RouteQueryOptions): RouteDefinition<'post'> => 
 
 upload.definition = {
     methods: ["post"],
-    url: '/admin/media/upload',
+    url: '/admin/media/upload/index',
 } satisfies RouteDefinition<["post"]>
 
 /**
@@ -33,27 +33,27 @@ upload.post = (options?: RouteQueryOptions): RouteDefinition<'post'> => ({
     method: 'post',
 })
 
-    /**
+/**
 * @see \App\Http\Controllers\Admin\MediaController::upload
- * @see app/Http/Controllers/Admin/MediaController.php:11
- * @route '/admin/media/upload'
- */
-    const uploadForm = (options?: RouteQueryOptions): RouteFormDefinition<'post'> => ({
-        action: upload.url(options),
-        method: 'post',
-    })
+* @see app/Http/Controllers/Admin/MediaController.php:11
+* @route '/admin/media/upload'
+*/
+const uploadForm = (options?: RouteQueryOptions): RouteFormDefinition<'post'> => ({
+    action: upload.url(options),
+    method: 'post',
+})
 
-            /**
+/**
 * @see \App\Http\Controllers\Admin\MediaController::upload
- * @see app/Http/Controllers/Admin/MediaController.php:11
- * @route '/admin/media/upload'
- */
-        uploadForm.post = (options?: RouteQueryOptions): RouteFormDefinition<'post'> => ({
-            action: upload.url(options),
-            method: 'post',
-        })
-    
-    upload.form = uploadForm
+* @see app/Http/Controllers/Admin/MediaController.php:11
+* @route '/admin/media/upload'
+*/
+uploadForm.post = (options?: RouteQueryOptions): RouteFormDefinition<'post'> => ({
+    action: upload.url(options),
+    method: 'post',
+})
+
+upload.form = uploadForm
 const media = {
     upload: Object.assign(upload, upload),
 }
