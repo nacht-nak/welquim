@@ -15,11 +15,7 @@ use App\Http\Controllers\Portfolio\ProjectController;
 use App\Http\Middleware\ConvertFormDataTypes;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Portfolio (Public) Routes
-|--------------------------------------------------------------------------
-*/
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
 Route::get('/projects/{project:slug}', [ProjectController::class, 'show'])->name('projects.show');
@@ -31,11 +27,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
 });
 
-/*
-|--------------------------------------------------------------------------
-| Admin Routes (Authenticated)
-|--------------------------------------------------------------------------
-*/
 Route::prefix('admin')
     ->middleware(['auth', 'verified', ConvertFormDataTypes::class])
     ->name('admin.')

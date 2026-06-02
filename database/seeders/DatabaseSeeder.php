@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Admin user
+    
         User::factory()->create([
             'name' => 'Admin',
             'username' => 'admin',
