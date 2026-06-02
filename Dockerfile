@@ -13,7 +13,7 @@ COPY composer*.json ./
 RUN composer install --no-dev --optimize-autoloader --no-scripts --no-progress --ignore-platform-reqs
 
 # --- Stage 3: Production Runtime ---
-FROM serversideup/php:8.3-fpm-nginx-alpine
+FROM serversideup/php:8.4-fpm-nginx-alpine
 
 WORKDIR /var/www/html
 
